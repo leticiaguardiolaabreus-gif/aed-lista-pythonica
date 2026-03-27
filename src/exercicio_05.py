@@ -1,3 +1,6 @@
+from warnings import onceregistry
+
+
 def famous_quote(author: str, quote: str) -> str:
     """
     Retorna uma frase com autor e citação.
@@ -9,4 +12,6 @@ def famous_quote(author: str, quote: str) -> str:
     Returns:
         str: "<author> once said, '<quote>'"
     """
+    return f"{author} once said, '{quote}'"
+
     pass

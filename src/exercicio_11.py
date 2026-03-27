@@ -14,4 +14,10 @@ def modify_guest_list(
     Returns:
         list[str]: lista atualizada
     """
+    for i in range(len(guests)):
+        if guests[i] == unavailable:
+            guests[i] = new_guest
+    return guests
+
+
     pass

@@ -16,7 +16,12 @@ def calculate_eight() -> list[str]:
     Exemplos válidos:
         ["5 + 3", "10 - 2", "4 * 2", "16 / 2"]
 
+
+
     Returns:
         list[str]: lista de expressões matemáticas
+
     """
+
+    return ["4 + 4", "28 - 20", "2 * 4", "40 / 5"]
     pass
